@@ -15,8 +15,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.md"}
-  - {title: "Research", file: "research.md"}
+  - {title: "Home", file: "index.html"}
+  - {title: "Research", file: "research.html"}
   - {title: "Publications", url: "publications.html"}
   - {url: "/Ryo Tamura CV.pdf", title: "CV"}
 
