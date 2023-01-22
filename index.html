@@ -3,8 +3,44 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<style>
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+  }
+  img {
+  max-width: 100%
+  }
+  .image {
+  flex-basis: 150%;
+  order: 1;
+  }
+  .text {
+  font-size: 15px;
+  padding-left: 50px;
+  }
+</style>
+
+<div class="row g-5 mb-5">
+  <div class="container">
+    <div class="img">
+      <img src="{{ site.github.url }}/assets/images/img-20220124-wa0008-1076x1435.jpg" alt="" width="100%">
+    </div class="img">
+    <div class="text">
+      <h1>Welcome!</h1>
+      <p>I am a Ph.D. candidate in Kamiyama Lab at the University of Georgia. 
+        My enthusiasm lies in engineering new proteins and utilizing them to address molecular mechanisms underlying human diseases. 
+        I am interested in a variety of scientific disciplines, including protein engineering, neuroscience, glycobiology, 
+        cancer biology, cellular biology, genetics, bioinformatics, and so on.
+
+        When I am not in lab, I am self-teaching computational skills, learning new languages 
+        (recently Spanish and Cantonese), playing pick-up soccer, trying new latin recipes, 
+        or socializing in downtown Athens. 
+
+        Being originally from Tokyo, Japan, I have an in-depth knowledge about where to eat good ramen in 
+        Shibuya and where to show around my international friends when they come over!
+      </p>
+    </div class="text">
+  </div class="container">
+ </div class="row g-5 mb-5">
