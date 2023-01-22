@@ -1,10 +1,18 @@
 ---
-title: "About"
-permalink: "/about/"
+title: "Publications"
+permalink: "/publications/"
 layout: page
 ---
 
-## Installation
+# Work in University of Georgia 
+
+Tamura, R. and Kamiyama, D. “Spatial regulation of dendritic outgrowth mediated by Dscam1 and Slit in Drosophila embryonic aCC motor neuron” (in preparation) 
+
+Tamura, R. and Kamiyama, D. [“CRISPR-Cas9-mediated knock-in approach to insert the GFP11 tag into the genome of a human cell line”](https://link.springer.com/protocol/10.1007/978-1-0716-2667-2_8) Methods in Molecular Biology (2023)
+
+Kamiyama, R., Banzai, K., Liu, P., Marar, A., Tamura, R., Jiang, F., Fitch, M, A., Xie, J., and Kamiyama, D. “Cell-type-specific, multi-color labeling of endogenous proteins with split fluorescent protein tags in Drosophila” PNAS (2021) 
+
+Tamura, R., Jiang, F., Xie, J., and Kamiyama, D. “Multiplexed labeling of cellular proteins with split fluorescent protein tags” Communications Biology (2021) 
 
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
