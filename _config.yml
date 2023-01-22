@@ -1,6 +1,6 @@
 title: "Ryo Tamura / 田村　亮"
 author: "Ryo Tamura / 田村　亮"
-description: "Hello there!"
+description: "   "
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -18,7 +18,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.html"}
   - {title: "Research", file: "research.html"}
   - {title: "Publications", url: "publications.html"}
-  - {url: "/Ryo Tamura CV.pdf", title: "CV"}
+  - {title: "CV", url: "cv.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {icon: envelope, url: "mailto:ryotamura@uga.edu"}
