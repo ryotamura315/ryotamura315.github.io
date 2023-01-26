@@ -1,5 +1,5 @@
-title: "Ryo Tamura / 田村　亮"
-author: "Ryo Tamura / 田村　亮"
+title: "Ryo Tamura | 田村　亮"
+author: "Ryo Tamura | 田村　亮"
 description: "   "
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -15,10 +15,10 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", url: "index.html"}
-  - {title: "Research", url: "research.html"}
-  - {title: "Publications", url: "publications.html"}
-  - {title: "CV", url: "cv.html"}
+  - {title: "Home", file: "index.html"}
+  - {title: "Research", file: "research.html"}
+  - {title: "Publications", file: "publications.html"}
+  - {title: "CV", file: "cv.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {icon: envelope, url: "mailto:ryotamura@uga.edu"}
