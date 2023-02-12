@@ -5,21 +5,24 @@ layout: page
 ---
 
 <style>
-body {
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: 300px 1fr;
-  gap: 1rem;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  font: 500 100%/1.5 system-ui;
-}
 img {
-  max-width: 100%;
-  height: auto;
-}
+  float: left;
+  }
 </style>
+
+<div class="row g-5 mb-5">
+  <div class="text">
+    <p>
+      <img src="{{ site.github.url }}/assets/images/splitFP.png" alt="" width="30%">
+      <h1>Directed evolution of split fluorescent proteins</h1>
+      Self-complementing split fluorescent protein (split FP) consists of FP1-10 and FP11 fragments, which are non-fluorescent by themselves. 
+      Upon self-assembly, they reconstitute fluorescence.  Compared to a full-length FP, FP11 is >10 times smaller (~16 a.a.), making it a modular tag. 
+      By combining directed evolution in E.coli and circular permutation of FPs, I have engineered numerous color variants of split FP with distinct binding specificities. 
+      Due to its small size, FP11 can be integrated into the genome via CRISPR with minimal genomic perturbation, enabling efficient visualization of endogenous proteins. 
+      In addition, FP11 can be tagged to a protein of interest in tandem for signal amplification. 
+    </p>
+  </div class="text">
+</div>
   
 <div class="row g-5 mb-5">
   <div class="img">
